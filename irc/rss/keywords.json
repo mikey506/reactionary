@@ -1,6 +1,63 @@
 {
-    "mikey": ["Reactionary", "machine learning", "blockchain"],
-    "mikey": ["cybersecurity", "hacking", "vulnerability"],
-    "mikey": ["football", "soccer", "tennis"],
-    "mikey": ["premier", "N.B", "Fredericton city staff"]
+    "politics_general": [
+        "election", "voting", "ballot", "candidate", "politician", 
+        "political party", "government", "policy", "legislation", 
+        "campaign", "constituency", "parliament", "senate", "congress", 
+        "democracy", "republic", "monarchy", "dictatorship", "autocracy", 
+        "prime minister", "president", "governor", "mayor"
+    ],
+    "politics_controversies": [
+        "scandal", "corruption", "bribery", "impeachment", "resignation", 
+        "protest", "whistleblower", "leak", "classified", "investigation", 
+        "abuse of power", "conflict of interest", "fraud", "embezzlement"
+    ],
+    "politics_foreign_policy": [
+        "diplomacy", "sanctions", "treaty", "embassy", "ambassador", 
+        "foreign aid", "international relations", "UN", "NATO", 
+        "globalization", "trade agreement", "immigration", "border control", 
+        "asylum", "refugees", "war", "military intervention", "peace talks"
+    ],
+    "politics_social_issues": [
+        "human rights", "civil rights", "LGBTQ+", "gender equality", 
+        "racial equality", "discrimination", "hate crime", "pro-choice", 
+        "pro-life", "gun control", "abortion", "death penalty", 
+        "climate change", "environmental policy", "social justice", 
+        "income inequality", "poverty", "homelessness"
+    ],
+    "politics_economy": [
+        "budget", "taxes", "inflation", "unemployment", "welfare", 
+        "social security", "minimum wage", "labor union", "strike", 
+        "trade deficit", "public spending", "austerity", "debt ceiling", 
+        "fiscal policy", "economic growth", "recession", "stock market"
+    ],
+    "politics_technology": [
+        "cybersecurity", "hacking", "surveillance", "privacy", "data protection", 
+        "artificial intelligence", "machine learning", "blockchain", 
+        "net neutrality", "5G", "tech regulation", "digital currency", 
+        "smart cities", "big data", "social media regulation", "online censorship"
+    ],
+    "politics_regional": [
+        "premier", "N.B", "Fredericton", "provincial government", 
+        "city council", "municipal elections", "local governance", 
+        "community development", "regional policy", "public transport"
+    ],
+    "politics_healthcare": [
+        "healthcare policy", "Medicare", "Medicaid", "universal healthcare", 
+        "public health", "pandemic response", "vaccination", "mental health", 
+        "opioid crisis", "drug policy", "health insurance", "hospital funding", 
+        "medical research", "prescription drugs", "healthcare reform"
+    ],
+    "politics_education": [
+        "education policy", "school funding", "student loans", 
+        "curriculum reform", "teacher unions", "higher education", 
+        "college tuition", "standardized testing", "academic freedom", 
+        "school choice", "charter schools", "public schools", 
+        "education inequality", "distance learning", "STEM education"
+    ],
+    "politics_lobbying": [
+        "lobbyist", "lobbying", "PAC", "campaign finance", "special interest", 
+        "corporate influence", "political donations", "grassroots lobbying", 
+        "dark money", "super PAC", "think tank", "advocacy group", 
+        "regulatory capture", "revolving door", "industry lobby"
+    ]
 }
