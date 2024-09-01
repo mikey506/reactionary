@@ -1,0 +1,11 @@
+feedparser
+logging
+time
+json
+re
+threading
+ssl
+configparser
+irc.client
+psutil
+
