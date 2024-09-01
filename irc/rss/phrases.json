@@ -1,11 +1,15 @@
 {
-    "security": {
-        "channel": "#security",
+    "nbpoli": {
+        "channel": "#nbpoli",
         "message_template": "Security alert: {title} - {link}. Details: {description} (Keyword: {keyword})"
     },
-    "reactionary": {
-        "channel": "#reactionaries",
-        "message_template": "Reactionary News: {title} - {link}. Details: {description} (Keyword: {keyword})"
+    "nbpoli-economy": {
+        "channel": "#nbpoli-economy",
+        "message_template": "Political Economy News: {title} - {link}. Details: {description} (Keyword: {keyword})"
+    },
+    "nbpoli-health": {
+        "channel": "nbpoli-health",
+        "message_template": "Political Health News: {title} - {link}. Details: {description} (Keyword: {keyword})"
     },
     "default": {
            "channel": "#mikey",
