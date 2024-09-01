@@ -1,63 +1,13 @@
 {
-    "politics_general": [
-        "election", "voting", "ballot", "candidate", "politician", 
-        "political party", "government", "policy", "legislation", 
-        "campaign", "constituency", "parliament", "senate", "congress", 
-        "democracy", "republic", "monarchy", "dictatorship", "autocracy", 
-        "prime minister", "president", "governor", "mayor"
+    "#nbpoli": [
+        "New Brunswick", "N.B.", "NB", "Fredericton", "Moncton", "Saint John", "New Brunswick Legislature", "New Brunswick Legislative Assembly", "Lieutenant Governor", "Premier", "Blaine Higgs", "Progressive Conservative Party", "PC Party", "Liberal Party", "Green Party", "People's Alliance", "NDP", "provincial government", "provincial election", "provincial budget", "public policy", "legislation", "MLA", "Member of the Legislative Assembly", "minister", "cabinet", "shadow cabinet", "opposition", "Policy 713", "gender ideology", "education policy", "climate change", "environmental policy", "carbon tax", "Indigenous rights", "First Nations", "Wolastoqiyik", "Mi'kmaq", "Treaty rights", "land claims", "Indigenous land", "federal funding", "municipal politics", "city council", "local governance", "zoning laws", "lobbying", "lobbyist", "campaign finance", "political donations", "electoral reform", "single transferable vote", "proportional representation", "vote splitting", "by-election", "electoral district", "voter turnout", "voter ID laws", "electoral boundaries", "New Brunswick Supreme Court", "judiciary", "judicial appointments", "law enforcement", "RCMP", "public safety", "crime rate", "policing", "drug policy", "opioid crisis", "mental health services"
     ],
-    "politics_controversies": [
-        "scandal", "corruption", "bribery", "impeachment", "resignation", 
-        "protest", "whistleblower", "leak", "classified", "investigation", 
-        "abuse of power", "conflict of interest", "fraud", "embezzlement"
+    "#nbpoli-economy": [
+        "New Brunswick economy", "economic growth", "unemployment rate", "job creation", "small business", "entrepreneurship", "startups", "provincial budget", "public debt", "deficit", "tax cuts", "tax policy", "income tax", "property tax", "sales tax", "HST", "GST", "fiscal policy", "public spending", "infrastructure investment", "resource management", "forestry", "fishing", "mining", "energy", "natural resources", "Crown lands", "resource royalties", "NB Power", "rate increase", "Energy and Utilities Board", "EUB", "Irving", "J.D. Irving", "Irving Oil", "McCain Foods", "corporate taxes", "corporate welfare", "government subsidies", "economic development", "regional development", "rural economy", "urban economy", "real estate", "housing market", "affordable housing", "property development", "land use", "tourism", "tourism policy", "cultural industries", "economic innovation", "technology sector", "information technology", "cybersecurity", "digital economy", "smart cities", "public-private partnerships", "P3", "public infrastructure", "transportation policy", "public transit", "road maintenance", "ports", "shipping industry", "Saint John Port", "airports", "labor market", "workforce development", "skills training", "labor unions", "collective bargaining", "minimum wage", "living wage", "income inequality", "poverty reduction", "social services", "welfare reform", "universal basic income", "healthcare funding", "education funding", "post-secondary education", "student loans", "tuition fees", "research and development", "investment", "foreign investment", "economic indicators", "exports", "trade agreements", "NAFTA", "USMCA", "trade relations", "tariffs", "sanctions", "export markets"
     ],
-    "politics_foreign_policy": [
-        "diplomacy", "sanctions", "treaty", "embassy", "ambassador", 
-        "foreign aid", "international relations", "UN", "NATO", 
-        "globalization", "trade agreement", "immigration", "border control", 
-        "asylum", "refugees", "war", "military intervention", "peace talks"
-    ],
-    "politics_social_issues": [
-        "human rights", "civil rights", "LGBTQ+", "gender equality", 
-        "racial equality", "discrimination", "hate crime", "pro-choice", 
-        "pro-life", "gun control", "abortion", "death penalty", 
-        "climate change", "environmental policy", "social justice", 
-        "income inequality", "poverty", "homelessness"
-    ],
-    "politics_economy": [
-        "budget", "taxes", "inflation", "unemployment", "welfare", 
-        "social security", "minimum wage", "labor union", "strike", 
-        "trade deficit", "public spending", "austerity", "debt ceiling", 
-        "fiscal policy", "economic growth", "recession", "stock market"
-    ],
-    "politics_technology": [
-        "cybersecurity", "hacking", "surveillance", "privacy", "data protection", 
-        "artificial intelligence", "machine learning", "blockchain", 
-        "net neutrality", "5G", "tech regulation", "digital currency", 
-        "smart cities", "big data", "social media regulation", "online censorship"
-    ],
-    "politics_regional": [
-        "premier", "N.B", "Fredericton", "provincial government", 
-        "city council", "municipal elections", "local governance", 
-        "community development", "regional policy", "public transport"
-    ],
-    "politics_healthcare": [
-        "healthcare policy", "Medicare", "Medicaid", "universal healthcare", 
-        "public health", "pandemic response", "vaccination", "mental health", 
-        "opioid crisis", "drug policy", "health insurance", "hospital funding", 
-        "medical research", "prescription drugs", "healthcare reform"
-    ],
-    "politics_education": [
-        "education policy", "school funding", "student loans", 
-        "curriculum reform", "teacher unions", "higher education", 
-        "college tuition", "standardized testing", "academic freedom", 
-        "school choice", "charter schools", "public schools", 
-        "education inequality", "distance learning", "STEM education"
-    ],
-    "politics_lobbying": [
-        "lobbyist", "lobbying", "PAC", "campaign finance", "special interest", 
-        "corporate influence", "political donations", "grassroots lobbying", 
-        "dark money", "super PAC", "think tank", "advocacy group", 
-        "regulatory capture", "revolving door", "industry lobby"
+    "#nbpoli-health": [
+        "healthcare policy", "public health", "Medicare", "Medicaid", "universal healthcare", "healthcare reform", "hospital funding", "mental health services", "addiction services", "opioid crisis", "COVID-19", "pandemic response", "vaccine rollout", "public health orders", "mask mandates", "quarantine", "contact tracing", "long-term care", "nursing homes", "elder care", "home care", "palliative care", "medical research", "health insurance", "prescription drugs", "pharmaceuticals", "drug pricing", "drug policy", "pharmacy benefits", "primary care", "family doctors", "specialist care", "emergency services", "ambulance services", "telemedicine", "digital health", "eHealth", "mental health", "suicide prevention", "counseling services", "health disparities", "health equity", "Indigenous health", "First Nations health", "Wolastoqiyik health", "Mi'kmaq health", "rural health services", "urban health services", "community health", "public health campaigns", "vaccination campaigns", "flu shots", "child immunization", "maternal health", "infant care", "reproductive health", "abortion services", "pro-choice", "pro-life", "sexual health education", "LGBTQ+ health", "gender-affirming care", "trans healthcare", "healthcare workers", "nurses", "doctors", "medical staff", "labor unions", "healthcare strikes", "workforce shortages", "healthcare funding", "federal health transfers", "New Brunswick Health Council", "NBHC", "health data", "Policy 713", "gender ideology"
     ]
 }
+
+
