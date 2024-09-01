@@ -16,7 +16,7 @@ def clean_html(raw_html):
 class RSSHandler:
     def __init__(self, irc_client, config):
         self.irc_client = irc_client
-        self.channel = config.get('IRC', 'channel')
+        self.config_channel = config.get('IRC', 'channel')
         self.rss_feed = config.get('RSS', 'feed')
         self.check_interval = config.getint('RSS', 'check_interval')
         self.cycle_active = False
@@ -39,9 +39,9 @@ class RSSHandler:
             self.cycle_thread = Thread(target=self.check_feed, args=(connection,))
             self.cycle_thread.start()
             logging.info('Started cycling feed: %s', self.rss_feed)
-            connection.privmsg(self.channel, "Cycling current feed.")
+            connection.privmsg(self.config_channel, "Cycling current feed.")
         else:
-            connection.privmsg(self.channel, "Feed is already cycling.")
+            connection.privmsg(self.config_channel, "Feed is already cycling.")
 
     def check_feed(self, connection):
         seen_entries = set()
@@ -60,13 +60,11 @@ class RSSHandler:
         description = clean_html(entry.get('description', 'No description available.'))
         summary = clean_html(entry.get('summary', ''))  # Extract summary with a default empty string
 
-        trigger_word = None
-        for category, words in self.keywords.items():
+        for channel, words in self.keywords.items():
             for word in words:
                 if word.lower() in title.lower():
-                    trigger_word = word
-                    phrase_data = self.phrases.get(category, self.phrases['default'])
-                    target_channel = phrase_data["channel"]
+                    phrase_data = self.phrases.get(channel, self.phrases['default'])
+                    target_channel = channel  # Use the channel associated with the keyword
 
                     message_template = phrase_data["message_template"]
                     message = message_template.format(
@@ -127,14 +125,14 @@ class RSSHandler:
         feed = feedparser.parse(url)
         if feed.entries:
             entry = feed.entries[0]
-            connection.privmsg(self.channel, "Available properties for the first entry:")
+            connection.privmsg(self.config_channel, "Available properties for the first entry:")
             for key, value in entry.items():
                 # Convert non-string values to strings for output
                 if not isinstance(value, str):
                     value = str(value)
                 truncated_value = value if len(value) <= 300 else value[:297] + "..."
-                connection.privmsg(self.channel, f"{key}: {truncated_value}")
+                connection.privmsg(self.config_channel, f"{key}: {truncated_value}")
                 logging.info('%s: %s', key, truncated_value)
         else:
-            connection.privmsg(self.channel, "No entries found in the RSS feed.")
+            connection.privmsg(self.config_channel, "No entries found in the RSS feed.")
             logging.info('No entries found in the RSS feed: %s', url)
